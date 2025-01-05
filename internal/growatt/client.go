@@ -31,7 +31,7 @@ func NewClient(serverUrl string, username string, password string) *Client {
 	}
 
 	if len(serverUrl) == 0 {
-		serverUrl = "https://server-api.growatt.com"
+		serverUrl = "https://openapi.growatt.com/"
 	}
 
 	slog.Info("setting server url", slog.String("url", serverUrl))
